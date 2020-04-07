@@ -47,4 +47,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 
-* The code started as Udacity's React nanodegree lesson 7 Chirper app and was modified into wouldUrather
+* The code started as Udacity's React nanodegree lesson 7's Real World Redux [Chirper app](https://gist.github.com/PurpleBooth/b24679402957c63ec426) and was modified into wouldUrather
