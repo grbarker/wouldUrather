@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: #252525;
+  background-color: WhiteSmoke;
 }
 
 a {
@@ -11,9 +12,10 @@ a {
 }
 
 .container {
-  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn {
@@ -26,6 +28,8 @@ a {
   font-size: 16px;
   width: 250px;
   position: relative;
+  background-color: #355c7d;
+  color: White;
 }
 
 .btn:hover {
@@ -52,14 +56,19 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   text-decoration: none;
+  background-color: White;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav li:first-child {
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 ul {
   padding-left: 0;
+  margin: 0;
 }
 
 li {
@@ -69,26 +78,128 @@ li {
 }
 
 .avatar {
-  height: 50px;
+  height: 100px;
   border-radius: 25px;
   margin: 10px;
 }
 
-.tweet {
+hr {
   width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c9d9e8;
+}
+
+.select {
+  width: 295px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #355c7d;
+  color: #fff;
+}
+
+.select-container {
+  position: relative;
   max-width: 590px;
   padding: 10px;
+  border-radius: 6px;
+  margin: auto;
+
+}
+
+.question {
+  max-width: 590px;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   border: 1px solid #dad7d7;
   border-radius: 3px;
   cursor: pointer;
 }
 
-.tweet-info {
-  margin: 10px;
+.user {
+  max-width: 590px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.user-info {
+  margin: 20px;
+}
+
+.av-div{
+  margin: 20px;
+}
+
+.rank{
+  margin: 20px;
+  font-size: 2em;
+  align-items: center;
+}
+
+.question-head {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #c9d9e8;
+  text-align: center;
+}
+
+.question-info {
+  margin: auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.btn-chosen {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 6px dashed #355c7d;
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  background-color: #86a8c6;
+  color: White;
+}
+
+.btn-unchosen {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  background-color: #c06c84;
+  color: White;
+}
+
+.btn-selected{
+  background-color: #969696,
+
+}
+
+.toggle-btn-container {
+  max-width: 590px;
+  margin: 10px auto 10px auto;
+}
+
+.toggle-btn {
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #355c7d;
 }
 
 /* Hacky but less typing in the video */
@@ -114,6 +225,7 @@ li {
 }
 .tweet-icons > span {
   color: #969696;
+        <h>Would You Rather</h>
   margin: 0 15px 0 5px;
   font-size: 18px !important;
 }
@@ -139,12 +251,13 @@ li {
   border: none;
 }
 
-.new-tweet {
+.new-question {
   width: 100%;
   max-width: 590px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .textarea {
