@@ -30,10 +30,6 @@ npm start
 
 * [React](https://reactjs.org/) - The web framework used
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Authors
 
@@ -47,4 +43,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 
-* The code started as Udacity's React nanodegree lesson 7's Real World Redux [Chirper app](https://gist.github.com/PurpleBooth/b24679402957c63ec426) and was modified into wouldUrather
+* The code started as Udacity's React nanodegree lesson 7's Real World Redux [Chirper app](https://github.com/udacity/reactnd-chirper-app.git) and was modified into wouldUrather
